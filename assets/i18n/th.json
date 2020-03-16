@@ -1,0 +1,15 @@
+{
+    "app_bar": {
+        "title": "Bienvenido a la página de inicio"
+    },
+    "language": {
+        "en": "English",
+        "th": "ไทย"
+    },
+    "setting_page": {
+        "languages_setting": {
+            "title": "ภาษา",
+            "appbar": "เลือกภาษา"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "app_bar": {
+        "title": "Welcome to the home page"
+    },
+    "language": {
+        "en": "English",
+        "th": "ไทย"
+    },
+    "setting_page": {
+        "languages_setting": {
+            "title": "Languages",
+            "appbar": "Select Languages"
+        }
+    }
+}

@@ -1,0 +1,64 @@
+name: store_test
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_translate:
+  flutter_translate_annotations: ^1.0.1
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  google_fonts: 0.3.9
+
+  provider: ^4.0.4
+
+  flutter_svg: 0.17.3+1
+
+  xlive_switch: 1.0.5
+  day_night_switch: 0.0.2+1
+
+  # Badges for Flutter (notify number)
+  badges: 1.1.1
+
+  shared_preferences: 0.5.6+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # convert our localized JSON content into static localization keys
+  # flutter pub run build_runner build --delete-conflicting-outputs
+  # https://github.com/bratan/flutter_translate/wiki/3.-Generating-statically-typed-localization-keys
+  flutter_translate_gen: ^1.2.3
+  build_runner: ^1.7.0
+      
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/i18n/
+    - assets/images/bottombar_icon/
+    - assets/images/shopping_type/
+    - assets/images/day_night_swith/
+    - assets/images/flag/
+  
